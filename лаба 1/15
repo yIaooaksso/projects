@@ -1,0 +1,4 @@
+f = int(input(("Feet: ")))
+i = int(input(("Inches: ")))
+o = f*30.48 + i*2.54
+print(f"Your height is: {o:.0f} cm")

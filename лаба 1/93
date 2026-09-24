@@ -1,0 +1,13 @@
+x1 = int(input())
+y1 = int(input())
+a1 = int(input())
+b1 = int(input())
+x2 = int(input())
+y2 = int(input())
+fake1 = x1 * 60 + y1
+real1 = a1 * 60 + b1
+fake2 = x2 * 60 + y2
+real_diff = 2 * (fake2 - fake1)
+real2 =  real1 + real_diff
+print(real2 // 60)
+print(real2 % 60)

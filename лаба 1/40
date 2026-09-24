@@ -1,0 +1,3 @@
+n = int(input())
+f_n = float(n)
+print(f"{f_n:.3f}")
