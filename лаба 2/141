@@ -1,0 +1,10 @@
+number1 = int(input())
+choose1 = input()
+number2 = int(input())
+choose2 = input()
+if choose1 == "B":
+    print(number1 * 1048576, "B")
+    print(number2 * 1024, "KB")
+else:
+    print(number2 * 1048576, "B")
+    print(number1 * 1024, "KB")
