@@ -1,0 +1,4 @@
+num = input()
+snum = input()
+x = num.replace(snum, "")
+print(x)

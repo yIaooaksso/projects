@@ -1,0 +1,17 @@
+text = input()
+words = text.split()
+
+result = ""
+
+for word in words:
+    new_word = ""
+
+    for i in range(len(word)):
+        if i % 2 == 0:
+            new_word = new_word + word[i]
+
+    if result != "":
+        result = result + " "
+    result = result + new_word
+
+print(result)

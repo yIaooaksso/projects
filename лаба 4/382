@@ -1,0 +1,15 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+line = ""
+for j in range(c, d + 1):
+    line = line + "\t" + str(j)
+print(line)
+
+for i in range(a, b + 1):
+    line = str(i)
+    for j in range(c, d + 1):
+        line = line + "\t" + str(i * j)
+    print(line)
